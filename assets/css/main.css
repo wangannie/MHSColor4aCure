@@ -3860,3 +3860,34 @@ background-size: cover;
 	#btndetails{
 		margin-bottom: 40px;
 	}
+	#outer{
+    width:100%;
+    display:block;
+    text-align:center;
+    position:relative;
+    overflow: hidden;
+    height:10000px;
+    min-height:100%;
+}
+#home-top-video{
+    left:0%;
+    top:0%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+#home-text{
+    width:100%;
+    color:white
+
+
+		justify-content: center;
+		cursor: default;
+		height: 100vh;
+		min-height: 35em;
+		overflow: hidden;
+		position: absolute;
+		text-align: center;
+}
