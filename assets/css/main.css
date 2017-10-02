@@ -2974,17 +2974,17 @@ background-size: cover;
 			}
 
 		.wrapper.style4 {
-			/*background-color: transparent;*/
 				padding: 12em 0 10em 0 ;
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/icyZmdkCGZ0");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/icyZmdkCGZ0");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/icyZmdkCGZ0");
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/icyZmdkCGZ0");
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+				/*http://source.unsplash.com/NPFu4GfFZ7E*/
 				background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				text-align: center;
+				text-align: left;
 		}
 
 		.wrapper.style5 {
