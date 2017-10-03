@@ -2534,15 +2534,29 @@ background-size: cover;
 			background-size: cover;
 			text-align: center;
 			padding: 5em 4em 5em 4em ;
+			transition: opacity 0.7s, background 0.7s;
 		}
-		.spot: hover{
-			
+		.spot:hover {
+			opacity:0.7;
 		}
 		.sp1{
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
-			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
+
+		}
+		.sp2{
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
+		}
+		.sp3{
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
 		}
 
 	.spotlight {
@@ -2565,7 +2579,7 @@ background-size: cover;
 			width: 33.33333333%;
 		}
 
-			.spotlight .image img {
+		.spotlight .image img {
 				border-radius: 0;
 				width: 100%;
 			}
@@ -2859,7 +2873,9 @@ background-size: cover;
 		.wrapper.style2 {
 			background-color: #2e3842;
 		}
-
+		.wrapper.style2.OR{
+			background-color:black;
+		}
 		.wrapper.style3 {
 			background-color: #505393;
 			color: #d3d4e4;
