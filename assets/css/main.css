@@ -2540,23 +2540,23 @@ background-size: cover;
 			opacity:0.7;
 		}
 		.sp1{
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/run.png");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/run.png");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/run.png");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/run.png");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/run.png");
 
 		}
 		.sp2{
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
-			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/sponsor.jpg");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sponsor.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sponsor.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sponsor.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sponsor.jpg");
 		}
 		.sp3{
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
-			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("file:///Users/wangann/github/MHSColor4aCure/images/donate.jpg");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/donate.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/donate.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/donate.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/donate.jpg");
 		}
 
 	.spotlight {
@@ -2569,14 +2569,18 @@ background-size: cover;
 		display: -ms-flex;
 		display: flex;
 	}
-
+	.ynum{
+		color:yellow;
+		font-size:5.0em;
+		padding-top:10px;
+	}
 		.spotlight .image {
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 33.33333333%;
+			width: 40%;
 		}
 
 		.spotlight .image img {
@@ -2592,7 +2596,7 @@ background-size: cover;
 			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
-			width: 33.333333333%;
+			width: 60%;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2663,7 +2667,9 @@ background-size: cover;
 				.spotlight br {
 					display: none;
 				}
-
+				.spotlight .spot{
+					width: 100%;
+				}
 				.spotlight .image {
 					width: 100%;
 				}
@@ -2875,6 +2881,9 @@ background-size: cover;
 		}
 		.wrapper.style2.OR{
 			background-color:black;
+		}
+		.wrapper.style2.OR img{
+			width:33.33333%
 		}
 		.wrapper.style3 {
 			background-color: #505393;
