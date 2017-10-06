@@ -1639,6 +1639,9 @@ background-size: cover;
 	header.major {
 		margin: 0 0 3.5em 0;
 	}
+	header.major.OR{
+		margin: 0 0 0 0;
+	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			border-bottom: solid 2px #fff;
@@ -1662,6 +1665,9 @@ background-size: cover;
 
 			header.major {
 				margin: 0 0 2em 0;
+			}
+			header.major.OR{
+				margin: 0 0 0 0;
 			}
 
 		}
@@ -2882,12 +2888,21 @@ background-size: cover;
 		.wrapper.style2.OR{
 			background-color:black;
 		}
+		.wrapper.style2 h2{
+			margin-top:0px;
+			margin-bottom: 0px;
+		}
 		.wrapper.style2.OR img{
 			width:33.33333%
 		}
 		.wrapper.style3 {
 			background-color: #505393;
 			color: #d3d4e4;
+		}
+		.wrapper.style3.special.OR{
+			background-color:;
+			padding-bottom: 0px;
+			color:white;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
