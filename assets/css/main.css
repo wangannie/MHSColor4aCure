@@ -2901,7 +2901,8 @@ background-size: cover;
 		}
 		.wrapper.style3.special.OR{
 			background-color:;
-			padding-bottom: 0px;
+			padding-top:50px;
+			padding-bottom: 50px;
 			color:white;
 		}
 
