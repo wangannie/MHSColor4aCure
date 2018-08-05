@@ -1121,7 +1121,7 @@ p {
 	margin: 0 0 2em 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #fff;
+	color: #FFFFFF;
 	font-weight: 800;
 	letter-spacing: 0.225em;
 	line-height: 1em;
@@ -2344,7 +2344,7 @@ input[type="submit"],  input[type="reset"],  input[type="button"],  button,  .bu
 	color: #2E3842;
 }
 .wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-	color: #FFFFFF;
+	color: #2E3842;
 	text-decoration: none;
 }
 .wrapper.style5 hr {
@@ -3074,7 +3074,7 @@ body.is-mobile.landing #footer {
 }
 #home-text {
 	width: 100%;
- 	color:white;  
+ 	color:white;
 	justify-content: center;
 	cursor: default;
 	height: 100vh;
@@ -3100,4 +3100,7 @@ body.is-mobile.landing #footer {
 .spotbody:hover {
 	color: #FFFFFF;
 	text-decoration: none;
+}
+.blksubtitle{
+	color: #4E4852;
 }
