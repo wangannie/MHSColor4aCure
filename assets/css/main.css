@@ -2324,12 +2324,12 @@ input[type="submit"],  input[type="reset"],  input[type="button"],  button,  .bu
 }
 }
 .wrapper.style4 {
-	padding: 12em 0 10em 0;
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
-	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
-	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://source.unsplash.com/NPFu4GfFZ7E");
-	/*http://source.unsplash.com/NPFu4GfFZ7E*/
+	padding: 5em 0 5em 0;
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.66)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.6)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.6)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+	background-image: linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.6)), url("http://source.unsplash.com/NPFu4GfFZ7E");
+
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
